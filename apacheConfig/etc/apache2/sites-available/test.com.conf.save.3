@@ -1,0 +1,13 @@
+<VirtualHost *:443>
+    ServerAdmin admin@html.com
+    ServerName html.com
+    ServerAlias www.html.com
+    DocumentRoot /var/www/html/
+        SSLEngine on
+        SSLCertificateFile /var/www/html/ssl.crt
+        SSLCertificateKeyFile /var/www/html/ssl.key
+     
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>

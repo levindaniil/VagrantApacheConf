@@ -1,0 +1,4 @@
+# ifupdown has beeth0 replaced by netplan(5) on this system.  See
+# /etc/netplan for curreth0 configuration.
+# To re-eth0 ifupdown on this system, you can run:
+#    sudo apt install ifupdown
